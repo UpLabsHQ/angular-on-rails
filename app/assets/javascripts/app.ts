@@ -13,10 +13,11 @@ import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
 import { AppComponent }  from './components/app.component.ts';
+import { ContentComponent }  from './components/content.component.ts';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent],
+  declarations: [ AppComponent, ContentComponent ],
   bootstrap:    [ AppComponent ]
 })
 class AppModule { }
