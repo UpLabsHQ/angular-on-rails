@@ -1,0 +1,18 @@
+development:
+  adapter:      postgresql
+  database:     angular_on_rails_development
+  encoding:     unicode
+  min_messages: warning
+  password:
+  pool:         5
+  username:     postgres
+  host:         localhost
+
+test:
+  adapter:      postgresql
+  database:     angular_on_rails_test
+  encoding:     unicode
+  min_messages: warning
+  pool:         5
+  username:     postgres
+  host:         localhost
